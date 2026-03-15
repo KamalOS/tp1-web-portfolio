@@ -422,11 +422,13 @@ footer ul {
 }
 
 .row-education {
-    background-color: rgba(0, 212, 255, 0.15); /* more visible cyan */
+    background-color: rgba(0, 212, 255, 0.15);
+    /* more visible cyan */
 }
 
 .row-experience {
-    background-color: rgba(102, 102, 255, 0.15); /* more visible lightblue */
+    background-color: rgba(102, 102, 255, 0.15);
+    /* more visible lightblue */
 }
 
 /* Adjust text color logic slightly */
@@ -436,4 +438,8 @@ footer ul {
 
 .row-experience td:first-child {
     color: var(--lightblue) !important;
+}
+
+.section-dark {
+    color: var(--dark);
 }
